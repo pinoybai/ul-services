@@ -455,6 +455,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
+    margin-top: 5px;
+  }
+
+  .contact-content p.buttons > a {
+    display: block;
   }
 }
 
