@@ -1176,7 +1176,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
 }
 
-.area-coverage > ul {
+.area-coverage ul {
   list-style: none;
   border-radius: 20px;
   border: 2px solid #3f69aa;
@@ -1184,13 +1184,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-.area-coverage > ul > li {
+.area-coverage ul > li {
   border-bottom: 2px solid #3f69aa;
   padding: 10px;
   font-weight: bold;
 }
 
-.area-coverage > ul > li:last-child {
+.area-coverage ul > li:last-child {
   border: none;
 }
 
