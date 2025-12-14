@@ -1152,3 +1152,69 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 20px;
   font-weight: bold;
 }
+
+#area-timings {
+  padding-top: 20px;
+}
+
+.timings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.timings > h2 {
+  font-weight: bold;
+}
+
+.area-coverage {
+  padding: 20px 10px;
+}
+
+.area-coverage > h2 {
+  font-weight: bold;
+}
+
+.area-coverage > ul {
+  list-style: none;
+  border-radius: 20px;
+  border: 2px solid #3f69aa;
+  padding: 0;
+  overflow: hidden;
+}
+
+.area-coverage > ul > li {
+  border-bottom: 2px solid #3f69aa;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.area-coverage > ul > li:last-child {
+  border: none;
+}
+
+.languageButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.languageButtons > button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.languageButtons > button > span {
+  display: block;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.languageButtons > button:hover {
+  background: #3f69aa;
+  color: white;
+  border-radius: 10px;
+}
